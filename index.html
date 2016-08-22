@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuerying</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<h1>jQuery Mania II</h1>
+
+<main>
+  <p>Have some fun applying more jQuery techniques on this page.</p>
+<hr>
+
+
+<h3>Questions 1-4 should style this list:</h3>
+<ul>
+  <li>I am a list item</li>
+  <li>Remove Me!!</li>
+  <li>Turn me #8A2BE2</li>
+  <li>Place another 'li' below me</li>
+  <li>I have eaten my fellow items...</li>
+</ul>
+<hr>
+<p>1. 
+  <button class="changeColor">Click Here</button> to change the color of the third "li" element.</p>
+<p>2. When the forth item is clicked, add another beneath it.</p>
+<p>3. 
+  <button id="removeLi">Click Here</button> to remove the second "li".</p>
+<p>4. When the last list item is clicked, change its font size to 40px and hide all other items.</p>
+
+
+<hr>
+
+
+<p>5. When the image of the dog is clicked, make another image  of me! There is already an empty container with the ID 'clones' you can put my duplicates.</p>
+<img class="cute" src="http://hdwallnpics.com/wp-content/gallery/cute-golden-retriever-puppy-pictures/golden-retriever-puppies.jpg" alt="puppy">
+<div class="clones"></div>
+
+<hr>
+
+<p>6. On a double-click anywhere on the page, turn this rounded rectangle into a square.<br>
+HINT: use .dblclick() instead of .click()</p>
+<div id="makeSquare"></div>
+
+
+
+
+<hr>
+
+
+
+<p>7. On click, change the page background to match these beautiful swatches. The forth swatch restores the changes back to normal.</p>
+<div class="swatches">
+  <div class="black swatch"></div>
+  <div class="wood swatch"></div>
+  <div class="chaos swatch"></div>
+  <div class="restore swatch"></div>
+</div>
+
+<hr>
+
+<p>8. When your mouse is over the box, turn it red.<br>
+ Add the class 'green' when clicked (this adds a green border to the box).<br>
+ Remove the class 'green' when clicked again.<br>
+<br>
+HINT: When we're manipulating an item through a specific order of events,<br>
+the best practice is to nest your $selector.action() statements.</p>
+<div id="hover"></div>
+
+</main>
+
+<footer></footer>
+
+</body>
+</html>
+
+
+
+
+
